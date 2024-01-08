@@ -1,0 +1,26 @@
+// defining global styles
+$primary-color: #ffd700;  //used in animate.css library
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Helvetica Neue';  //default font
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'La Belle Aurore ';  //styling the background tags
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Coolvetica';  //default font
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+//default font for input and text area
+input, 
+textarea {
+  font-family: 'Helvetica Neue';
+}
+
